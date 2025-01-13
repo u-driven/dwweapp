@@ -1,0 +1,40 @@
+.search-product {
+	background: var(--color-dark-);
+	color: var(--color-white);
+	font-size: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0.25rem 0;
+	border-top: none;
+}
+
+.search-product__icon {
+	color: var(--color-burger);
+	margin-left: 2.5rem;
+	font-size: 0.8rem;
+	margin-right: 1.5rem;
+}
+
+.search-product img {
+	height: 30px;
+	margin-right: 1.5rem;
+	width: 30px;
+}
+
+@media all and (max-width: 500px) {
+	.search-product__icon {
+		font-size: 0.8rem;
+		margin-right: 0.75rem;
+		margin-left: 0.85rem;
+	}
+
+	.search-product img {
+		height: 30px;
+		margin-right: 0.75rem;
+		width: 30px;
+	}
+	.search-product h3 {
+		margin-right: 0.75rem;
+	}
+}

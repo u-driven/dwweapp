@@ -1,0 +1,33 @@
+.customers-reviews {
+	display: flex;
+	flex-direction: column;
+	padding-top: 4.5rem;
+	user-select: none;
+}
+.swiper-wrapper {
+	overflow: hidden;
+}
+.customers-reviews__container-text {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: var(--color-white);
+	align-items: center;
+}
+
+.customers-reviews__container-customers {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media all and (min-width: 550px) {
+	.customers-reviews__container-customers {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		margin-top: 2rem;
+	}
+}

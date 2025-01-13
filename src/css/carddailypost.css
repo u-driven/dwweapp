@@ -1,0 +1,161 @@
+.card-daily-post__img {
+	height: 176px;
+	transition: all 0.5s;
+}
+
+.card-daily-post__container-img {
+	overflow: hidden;
+	height: 176px;
+	border: 1px solid var(--color-burger);
+}
+
+.card-daily-post {
+	margin-top: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.card-daily-post:hover .card-daily-post__img {
+	transform: scale(1.05);
+}
+
+.card-daily-post__name {
+	color: var(--color-white);
+	font-size: 1rem;
+	margin: 0.5rem 0;
+}
+
+.card-daily-post__description {
+	margin: 0 0 0.5rem;
+	text-align: center;
+	font-size: 0.6rem;
+	line-height: 1.85;
+	width: 225px;
+	color: var(--color-secondary);
+}
+
+.card-daily-post__btn {
+	border: 1.5px solid var(--color-secondary);
+	background: none;
+	color: var(--color-white);
+	padding: 0.5rem 2rem;
+	font-size: 0.65rem;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+.card-daily-post__btn:hover {
+	background: var(--color-white);
+	color: #000;
+	border: 1.5px solid var(--color-white);
+}
+
+.card-daily-post__hover-container {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--color-white);
+	padding: 0.5rem;
+	background: #000;
+	transition: all 0.5s;
+	bottom: -34px;
+	border-top: 1px solid var(--color-burger);
+}
+
+.card-daily-post:hover .card-daily-post__hover-container {
+	position: relative;
+	z-index: 75rem;
+	bottom: 34px;
+}
+
+.card-daily-post__row-one,
+.card-daily-post__row-two {
+	font-size: 0.75rem;
+}
+
+.card-daily-post__row-one span,
+.card-daily-post__row-two span {
+	margin-left: 0.25rem;
+}
+
+.card-daily-post__icon-hover {
+	color: var(--color-burger);
+}
+
+@media all and (min-width: 550px) {
+	.card-daily-post__img {
+		height: 250px;
+	}
+
+	.card-daily-post__container-img {
+		height: 250px;
+	}
+
+	.card-daily-post__name {
+		font-size: 1.25rem;
+	}
+
+	.card-daily-post__description {
+		font-size: 0.75rem;
+		width: 300px;
+	}
+
+	.card-daily-post__btn {
+		margin: 0;
+	}
+}
+
+@media all and (min-width: 870px) {
+	.card-daily-post__img {
+		height: 166px;
+	}
+
+	.card-daily-post__container-img {
+		height: 166px;
+	}
+
+	.card-daily-post__name {
+		font-size: 1rem;
+		margin: 0.75rem 0;
+	}
+
+	.card-daily-post__description {
+		font-size: 0.65rem;
+		width: 250px;
+		margin: 0 0 0.75rem 0;
+	}
+
+	.card-daily-post__btn {
+		margin: 0;
+		font-size: 0.55rem;
+	}
+}
+
+@media all and (min-width: 1075px) {
+	.card-daily-post__img {
+		height: 216px;
+	}
+
+	.card-daily-post__container-img {
+		height: 216px;
+	}
+
+	.card-daily-post__name {
+		font-size: 1.15rem;
+		margin: 0.95rem 0;
+	}
+
+	.card-daily-post__description {
+		font-size: 0.6rem;
+		width: 275px;
+		margin: 0 0 0.75rem 0;
+	}
+
+	.card-daily-post__btn {
+		margin: 0;
+		font-size: 0.65rem;
+	}
+}

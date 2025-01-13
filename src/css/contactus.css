@@ -1,0 +1,256 @@
+.contact-us {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3.5rem;
+	user-select: none;
+}
+
+.contact-us__responsive {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-us__col-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-us__col-right {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-us__container-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	margin: 1rem 0 0.5rem 0;
+}
+
+.contact-us__container-imframe {
+	width: 90%;
+}
+.contact-us__imframe {
+	width: 100%;
+	height: auto;
+	border: 2.5px solid var(--color-burger);
+}
+
+.contact-us__container-cards {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact-us__container-form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+}
+
+.contact-us__form-title {
+	margin: 2rem 0 1rem;
+	font-size: 1.25rem;
+}
+
+.contact-us__form {
+	text-align: center;
+}
+
+.contact-us__form input {
+	width: 85%;
+	margin: 0.5rem 0;
+	border: 1.5px solid var(--color-secondary);
+	background: transparent;
+	border-radius: 3px;
+	color: var(--color-burger);
+	padding: 0.7rem 0.45rem;
+	font-size: 0.75rem;
+}
+
+.contact-us__form input:focus::placeholder {
+	color: var(--color-burger);
+}
+
+.contact-us__form input:focus {
+	border: 1.5px solid var(--color-burger);
+	outline: none;
+}
+
+.contact-us__btn-send-message {
+	border: 1.5px solid var(--color-secondary);
+	background: none;
+	color: #fff;
+	margin: 1rem 0;
+	padding: 0.5rem 2rem;
+	font-size: 0.75rem;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+.contact-us__btn-send-message:hover {
+	background: var(--color-white);
+	color: #000;
+	border: 1.5px solid var(--color-white);
+}
+
+.contact-us__msg-error {
+	color: rgb(185, 0, 0);
+	font-size: 0.7rem;
+	font-weight: bold;
+	text-align: start;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.contact-us__msg-success {
+	color: rgb(17, 207, 0);
+	font-size: 0.95rem;
+	letter-spacing: 1.4px;
+	font-weight: bold;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.contact-us__input-message {
+	padding: 0.7rem 0.45rem 2rem !important;
+}
+
+@media all and (min-width: 550px) {
+	.contact-us__col-left {
+		display: flex;
+		flex-direction: column;
+		width: 85%;
+	}
+
+	.contact-us__container-imframe {
+		width: 100%;
+		margin-bottom: 1.5rem;
+	}
+	.contact-us__imframe {
+		width: 100%;
+		height: 400px;
+	}
+
+	.contact-us__container-cards {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		margin: 1.25rem 0 0;
+		margin-bottom: 1.5rem;
+	}
+
+	.contact-us__container-form {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		color: #fff;
+		width: 100%;
+	}
+
+	.contact-us__form {
+		text-align: center;
+		width: 30rem;
+	}
+
+	.contact-us__form input {
+		width: 85%;
+		margin: 0.5rem 0;
+		border: 1.5px solid var(--color-secondary);
+		background: transparent;
+		border-radius: 3px;
+		color: var(--color-burger);
+		padding: 0.7rem 0.45rem;
+		font-size: 0.75rem;
+	}
+
+	.contact-us__msg-error {
+		font-size: 0.8rem;
+		width: 87.5%;
+		margin: 0 auto;
+	}
+}
+
+@media all and (min-width: 850px) {
+	.contact-us__responsive {
+		flex-direction: row;
+	}
+
+	.contact-us__col-left {
+		width: 50%;
+	}
+
+	.contact-us__col-right {
+		width: 50%;
+	}
+
+	.contact-us__container-imframe {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contact-us__imframe {
+		width: 300px;
+		height: 550px !important;
+	}
+
+	.contact-us__container-cards {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.contact-us__form-title {
+		margin: 1.5rem 0 0.5rem;
+	}
+
+	.contact-us__form {
+		text-align: center;
+		width: 25rem;
+	}
+	.contact-us__msg-error {
+		font-size: 0.7rem;
+	}
+	.contact-us__responsive {
+		width: 100%;
+	}
+}
+
+@media all and (min-width: 870px) {
+	.contact-us__imframe {
+		width: 350px;
+		height: 650px;
+	}
+}
+
+@media all and (min-width: 1075px) {
+	.contact-us__imframe {
+		width: 450px;
+		height: 450px;
+	}
+	.contact-us__form {
+		text-align: center;
+		width: 35rem;
+	}
+	.contact-us__msg-error {
+		font-size: 0.8rem;
+		width: 87.5%;
+	}
+}
