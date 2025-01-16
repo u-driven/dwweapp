@@ -6,33 +6,34 @@ import CardContactUs from './CardContactUs';
 import TITLE from '../image/title-img.png';
 import '../css/contactus.css';
 import { Formik } from 'formik';
+import emailjs, {send} from '@emailjs/browser'
 
 const ContactUs = () => {
 	const DATA_CONTACT = [
-		{
-			name: 'PHONE',
-			icon: <IconPhone />,
-			contact: '+123-456-789',
-			contact_2: '+333-222-111',
-			id: 1,
-			scroll: 150,
-		},
+		// {
+		// 	name: 'PHONE',
+		// 	icon: <IconPhone />,
+		// 	contact: '+123-456-789',
+		// 	contact_2: '+333-222-111',
+		// 	id: 1,
+		// 	scroll: 150,
+		// },
 		{
 			name: 'EMAIL',
 			icon: <IconEmail />,
-			contact: 'tomasdeveloperfrontend@gmail.com',
-			contact_2: 'tomas_aranda@gmail.com',
+			contact: 'cs@udriventw.com',
+			contact_2: null,
 			id: 2,
 			scroll: 300,
 		},
-		{
-			name: 'ADDRESS',
-			icon: <IconLocation />,
-			contact: 'Buenos Aires, Argentina',
-			contact_2: null,
-			id: 3,
-			scroll: 450,
-		},
+		// {
+		// 	name: 'ADDRESS',
+		// 	icon: <IconLocation />,
+		// 	contact: 'Buenos Aires, Argentina',
+		// 	contact_2: null,
+		// 	id: 3,
+		// 	scroll: 450,
+		// },
 	];
 
 	const [msgFormSend, setMsgFormSend] = useState(false);
@@ -40,22 +41,9 @@ const ContactUs = () => {
 	return (
 		<div className="contact-us" id="contact">
 			<div className="contact-us__container-text">
-				<img alt="logo" className="contact-us__img" src={TITLE} />
 				<h2 className="contact-us__title">CONTACT US</h2>
 			</div>
 			<div className="contact-us__responsive">
-				<div className="contact-us__col-left" data-aos="flip-left" data-aos-delay="150">
-					<div className="contact-us__container-imframe">
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7809.302162904644!2d-58.3670212380798!3d-34.61915131851718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1650061127395!5m2!1ses-419!2sar"
-							className="contact-us__imframe"
-							allowFullScreen=""
-							loading="lazy"
-							referrerPolicy="no-referrer-when-downgrade"
-							title="location"
-						></iframe>
-					</div>
-				</div>
 				<div className="contact-us__col-right">
 					<div className="contact-us__container-cards">
 						{DATA_CONTACT.map((item) => (
@@ -170,7 +158,7 @@ const ContactUs = () => {
 										Send Message
 									</button>
 									{msgFormSend ? (
-										<div className="contact-us__msg-success">form sent successfully</div>
+										<div className="contact-us__msg-success">Thank oyu</div>
 									) : null}
 								</form>
 							)}

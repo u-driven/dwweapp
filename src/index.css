@@ -10,7 +10,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	box-sizing: border-box;
 	font-family: 'Raleway', sans-serif;
-	background-image: url(.//image/background.jpg);
+	background-image: url(.//image/warren.jpg);
 }
 
 code {
@@ -20,7 +20,7 @@ code {
 :root {
 	--color-dark-: #0c0c0c;
 	--color-white: #fff;
-	--color-burger: #e3cb57;
+	--color-burger: #00ccbe;
 	--color-secondary: rgb(182, 182, 182);
 	--color-yellow: #f5cd06;
 	--color-red: rgb(226, 0, 0);
@@ -31,7 +31,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-	background-image: url(.//image/background.jpg);
+	background-image: url(.//image/warren.jpg);
 }
 
 body::-webkit-scrollbar-thumb {

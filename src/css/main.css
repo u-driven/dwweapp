@@ -1,10 +1,10 @@
+
+
 main {
-	background-image: url(../image/home-bg.png);
-	background-size: cover;
-	background-position: center;
 	padding-top: 4rem;
 	z-index: -100;
 	position: relative;
+
 }
 
 .main__container-img {
@@ -23,16 +23,27 @@ main {
 }
 
 .main__title {
-	color: var(--color-white);
+	/*color: var(--color-white);*/
 	margin: 1rem 0 0;
-	font-size: 1.25rem;
+	/*font-size: 1.25rem;*/
 	text-align: center;
+	font-size: 1.75rem;
+	font-family: "Tilt Neon", serif;
+	text-shadow:
+			0 0 5px #ffa500,
+			0 0 15px #ffa500,
+			0 0 20px #ffa500,
+			0 0 40px #ffa500,
+			0 0 60px #ff0000,
+			0 0 10px #ff8d00,
+			0 0 98px #ff0000;
+	color: #fff6a9;
 }
 
 .main__subtitle {
 	color: var(--color-secondary);
 	margin: 1rem auto;
-	font-size: 0.75rem;
+	font-size: 1rem;
 	width: 275px;
 	line-height: 1.8;
 	text-align: center;
@@ -40,7 +51,10 @@ main {
 
 .main__container-cards {
 	display: flex;
-	flex-direction: column;
+	/*flex-direction: column;*/
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .main__container-cards {
@@ -67,13 +81,11 @@ main {
 
 @media all and (min-width: 550px) {
 	main {
-		background-image: url(../image/home-bg.png);
-		background-size: cover;
-		background-position: center;
 		margin-top: 1rem;
 		z-index: -100;
 		position: relative;
 		user-select: none;
+
 	}
 
 	.main__img {
@@ -81,10 +93,21 @@ main {
 	}
 
 	.main__title {
-		color: var(--color-white);
+		/*color: var(--color-white);*/
 		margin: 0.75rem 0 0;
-		font-size: 1.75rem;
+		/*font-size: 1.75rem;*/
 		text-align: center;
+		font-size: 2.25rem;
+		font-family: "Tilt Neon", serif;
+		text-shadow:
+				0 0 5px #ffa500,
+				0 0 15px #ffa500,
+				0 0 20px #ffa500,
+				0 0 40px #ffa500,
+				0 0 60px #ff0000,
+				0 0 10px #ff8d00,
+				0 0 98px #ff0000;
+		color: #fff6a9;
 	}
 
 	.main__subtitle {
@@ -123,13 +146,11 @@ main {
 
 @media all and (min-width: 800px) {
 	main {
-		background-image: url(../image/home-bg.png);
-		background-size: cover;
-		background-position: center;
-		margin-top: 3rem;
+
 		z-index: -100;
 		position: relative;
 		user-select: none;
+
 	}
 
 	.main__img {
@@ -137,16 +158,26 @@ main {
 	}
 
 	.main__title {
-		color: var(--color-white);
+		/*color: var(--color-white);*/
 		margin: 0.75rem 0 0;
-		font-size: 2.5rem;
 		text-align: center;
+		font-size: 3rem;
+		font-family: "Tilt Neon", serif;
+		text-shadow:
+				0 0 5px #ffa500,
+				0 0 15px #ffa500,
+				0 0 20px #ffa500,
+				0 0 40px #ffa500,
+				0 0 60px #ff0000,
+				0 0 10px #ff8d00,
+				0 0 98px #ff0000;
+		color: #fff6a9;
 	}
 
 	.main__subtitle {
-		color: var(--color-secondary);
+		color: var(--color-white);
 		margin: 0.75rem auto;
-		font-size: 0.85rem;
+		font-size: 1rem;
 		width: 650px;
 		line-height: 1.8;
 		text-align: center;
@@ -166,13 +197,11 @@ main {
 
 @media all and (min-width: 1075px) {
 	main {
-		background-image: url(../image/home-bg.png);
-		background-size: cover;
-		background-position: center;
 		margin-top: 1rem;
 		z-index: -100;
 		position: relative;
 		user-select: none;
+
 	}
 
 	.main__img {
@@ -180,16 +209,25 @@ main {
 	}
 
 	.main__title {
-		color: var(--color-white);
 		margin: 0.75rem 0 0;
-		font-size: 2.5rem;
 		text-align: center;
+		font-size: 3rem;
+		font-family: "Tilt Neon", serif;
+		text-shadow:
+				0 0 5px #ffa500,
+				0 0 15px #ffa500,
+				0 0 20px #ffa500,
+				0 0 40px #ffa500,
+				0 0 60px #ff0000,
+				0 0 10px #ff8d00,
+				0 0 98px #ff0000;
+		color: #fff6a9;
 	}
 
 	.main__subtitle {
-		color: var(--color-secondary);
+		color: var(--color-white);
 		margin: 0.75rem auto;
-		font-size: 0.85rem;
+		font-size: 1rem;
 		width: 750px;
 		line-height: 1.8;
 		text-align: center;

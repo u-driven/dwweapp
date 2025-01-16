@@ -38,6 +38,7 @@
 
 .card-daily-post__btn {
 	border: 1.5px solid var(--color-secondary);
+	border-radius: 0.2rem;
 	background: none;
 	color: var(--color-white);
 	padding: 0.5rem 2rem;
@@ -47,9 +48,9 @@
 }
 
 .card-daily-post__btn:hover {
-	background: var(--color-white);
-	color: #000;
-	border: 1.5px solid var(--color-white);
+	background: var(--color-burger);
+	color: var(--color-white);
+	border: 1.5px solid var(--color-burger);
 }
 
 .card-daily-post__hover-container {

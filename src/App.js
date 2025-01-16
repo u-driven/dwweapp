@@ -228,11 +228,11 @@ function App() {
 					totalProduct={totalProduct}
 				/>
 				<Main />
-				<Menu handleClickAddCart={handleClickAddCart} />
+				{/*<Menu handleClickAddCart={handleClickAddCart} />*/}
 				<AboutUs />
-				<CustomersReviews />
+				{/*<CustomersReviews />*/}
 				<ContactUs />
-				<DailyPosts />
+				{/*<DailyPosts />*/}
 				<Footer />
 			</div>
 		</>

@@ -4,7 +4,6 @@
 	justify-content: center;
 	align-items: center;
 	padding-top: 3.5rem;
-	user-select: none;
 }
 
 .contact-us__responsive {
@@ -39,7 +38,7 @@
 	width: 90%;
 }
 .contact-us__imframe {
-	width: 100%;
+	width: 85%;
 	height: auto;
 	border: 2.5px solid var(--color-burger);
 }
@@ -71,7 +70,7 @@
 .contact-us__form input {
 	width: 85%;
 	margin: 0.5rem 0;
-	border: 1.5px solid var(--color-secondary);
+	border: 1.5px solid var(--color-burger);
 	background: transparent;
 	border-radius: 3px;
 	color: var(--color-burger);
@@ -89,24 +88,34 @@
 }
 
 .contact-us__btn-send-message {
-	border: 1.5px solid var(--color-secondary);
+	border: 1.5px solid var(--color-burger);
 	background: none;
-	color: #fff;
+	border-radius: 1rem;
+	color: var(--color-burger);
 	margin: 1rem 0;
 	padding: 0.5rem 2rem;
 	font-size: 0.75rem;
 	transition: all 0.3s;
 	cursor: pointer;
+	text-shadow:
+			0 0 5px #90ffef,
+			0 0 15px #90ffef;
 }
 
 .contact-us__btn-send-message:hover {
-	background: var(--color-white);
+	background: var(--color-burger);
 	color: #000;
-	border: 1.5px solid var(--color-white);
+	/*border: 1.5px solid var(--color-white);*/
 }
 
 .contact-us__msg-error {
-	color: rgb(185, 0, 0);
+	color: #90ffef;
+	text-shadow:
+			0 0 5px red,
+			0 0 15px #90ffef,
+			0 0 20px red,
+			0 0 40px #90ffef,
+			0 0 10px red;
 	font-size: 0.7rem;
 	font-weight: bold;
 	text-align: start;
@@ -170,8 +179,8 @@
 	.contact-us__form input {
 		width: 85%;
 		margin: 0.5rem 0;
-		border: 1.5px solid var(--color-secondary);
-		background: transparent;
+		border: 1.5px solid var(--color-burger);
+		background: var(--color-dark-);
 		border-radius: 3px;
 		color: var(--color-burger);
 		padding: 0.7rem 0.45rem;

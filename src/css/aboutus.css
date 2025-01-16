@@ -30,6 +30,15 @@
 	font-size: 1.5rem;
 	text-align: center;
 	margin: 1.25rem 0 0.5rem;
+	font-family: "Tilt Neon", serif;
+	font-weight: lighter;
+	text-shadow:
+			0 0 5px #90ffef,
+			0 0 15px #90ffef,
+			0 0 20px #90ffef,
+			0 0 40px #90ffef,
+			0 0 10px #90ffef;
+	color: #e6faf5;
 }
 
 .about-us__col-subtitle {
@@ -38,7 +47,7 @@
 	text-align: center;
 	margin: 0 auto 1.25rem;
 	width: 250px;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
 
 .about-us__container-icons {
@@ -71,11 +80,6 @@
 	margin: 1rem auto 0.5rem;
 	cursor: pointer;
 	transition: all 0.5s;
-}
-
-.about-us__btn:hover {
-	color: var(--navbar-bg-color);
-	background-color: var(--color-white);
 }
 
 @media all and (min-width: 650px) {
@@ -125,7 +129,7 @@
 		color: var(--color-secondary);
 		line-height: 1.5rem;
 		text-align: center;
-		font-size: 0.75rem;
+		font-size: 0.9rem;
 		margin: 0 auto;
 		width: 250px;
 	}
@@ -139,7 +143,7 @@
 	.about-us__icons-col-right {
 		display: flex;
 		flex-direction: column;
-		margin: 1rem auto;
+		margin: 1rem;
 	}
 
 	.about-us__features {
@@ -207,7 +211,7 @@
 		color: var(--color-secondary);
 		line-height: 1.5rem;
 		text-align: center;
-		font-size: 0.75rem;
+		font-size: 0.9rem;
 		margin: 0 auto;
 		width: 350px;
 	}
@@ -222,7 +226,7 @@
 	.about-us__icons-col-right {
 		display: flex;
 		flex-direction: column;
-		margin: 1rem auto;
+		margin: 1rem;
 	}
 
 	.about-us__features {
