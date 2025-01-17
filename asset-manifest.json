@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.75f2f231.css",
+    "main.css": "/static/css/main.0ad145a6.css",
     "main.js": "/static/js/main.a4a65c22.js",
     "static/media/jakob-owens-WUmb_eBrpjs-unsplash.jpg": "/static/media/jakob-owens-WUmb_eBrpjs-unsplash.1610a7e2f85b0ccabb44.jpg",
     "static/media/warren.jpg": "/static/media/warren.59a63cee8d9cfd9e8169.jpg",
@@ -32,11 +32,11 @@
     "static/media/pic-2.png": "/static/media/pic-2.1ef1ecba9db4ad9c12c8.png",
     "static/media/product-14.png": "/static/media/product-14.f3aff355314010cc046a.png",
     "index.html": "/index.html",
-    "main.75f2f231.css.map": "/static/css/main.75f2f231.css.map",
+    "main.0ad145a6.css.map": "/static/css/main.0ad145a6.css.map",
     "main.a4a65c22.js.map": "/static/js/main.a4a65c22.js.map"
   },
   "entrypoints": [
-    "static/css/main.75f2f231.css",
+    "static/css/main.0ad145a6.css",
     "static/js/main.a4a65c22.js"
   ]
 }
