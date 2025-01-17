@@ -124,7 +124,7 @@
 }
 
 .contact-us__msg-success {
-	color: rgb(17, 207, 0);
+	color: var(--color-burger);
 	font-size: 0.95rem;
 	letter-spacing: 1.4px;
 	font-weight: bold;
