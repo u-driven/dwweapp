@@ -56,7 +56,7 @@ const AboutUs = () => {
 							</div>
 							<div className="about-us__features">
 								<IconCheck className="about-us__icon" />
-								<span className="about-us__text">Trand</span>
+								<span className="about-us__text">Omnichannel</span>
 							</div>
 						</div>
 					</div>
