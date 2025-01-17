@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.37c2f26a.css",
+    "main.js": "/static/js/main.a4a65c22.js",
+    "static/media/jakob-owens-WUmb_eBrpjs-unsplash.jpg": "/static/media/jakob-owens-WUmb_eBrpjs-unsplash.1610a7e2f85b0ccabb44.jpg",
+    "static/media/warren.jpg": "/static/media/warren.59a63cee8d9cfd9e8169.jpg",
+    "static/media/product-8.png": "/static/media/product-8.83e62587d4f1e674bcc3.png",
+    "static/media/product-12.png": "/static/media/product-12.a94e6cfe13013e6236f7.png",
+    "static/media/glow-logo.png": "/static/media/glow-logo.25cab2eaa0a110ed77c9.png",
+    "static/media/product-18.png": "/static/media/product-18.4dc079f524b134f8c555.png",
+    "static/media/product-17.png": "/static/media/product-17.a5bcd3691ea41be7b91b.png",
+    "static/media/digi-marketing.png": "/static/media/digi-marketing.d8344363b9793f4c25a8.png",
+    "static/media/about-img.png": "/static/media/about-img.89c1289b621e571a4fd2.png",
+    "static/media/product-4.png": "/static/media/product-4.89c1289b621e571a4fd2.png",
+    "static/media/product-7.png": "/static/media/product-7.0563ceb7e20697625631.png",
+    "static/media/product-2.png": "/static/media/product-2.c6a7a3177671cb29ce10.png",
+    "static/media/product-1.png": "/static/media/product-1.46dc2768d67d90a5512d.png",
+    "static/media/product-5.png": "/static/media/product-5.36c491a2517c9a4cfcbf.png",
+    "static/media/product-3.png": "/static/media/product-3.354839322d6256703eba.png",
+    "static/media/product-6.png": "/static/media/product-6.9469ff5088f940d4f978.png",
+    "static/media/product-15.png": "/static/media/product-15.d384573c7b1b2f80481b.png",
+    "static/media/product-16.png": "/static/media/product-16.9bb58ef245279b878438.png",
+    "static/media/product-9.png": "/static/media/product-9.6076cf67b9aecf8c2bab.png",
+    "static/media/product-13.png": "/static/media/product-13.b5402020fe7987fa931a.png",
+    "static/media/blog-2.jpg": "/static/media/blog-2.2a4d1def538338ffc16d.jpg",
+    "static/media/pic-3.png": "/static/media/pic-3.b9d9b2d2102a38f4a5cf.png",
+    "static/media/pic-1.png": "/static/media/pic-1.5d5e42bfc8bc3622b556.png",
+    "static/media/product-10.png": "/static/media/product-10.11e025782ebb1395d0b2.png",
+    "static/media/product-11.png": "/static/media/product-11.9313fb41e48c494ceebf.png",
+    "static/media/blog-1.jpg": "/static/media/blog-1.582ea9c48dd26857adff.jpg",
+    "static/media/blog-3.jpg": "/static/media/blog-3.882836c4618bfb5cc659.jpg",
+    "static/media/pic-2.png": "/static/media/pic-2.1ef1ecba9db4ad9c12c8.png",
+    "static/media/product-14.png": "/static/media/product-14.f3aff355314010cc046a.png",
+    "index.html": "/index.html",
+    "main.37c2f26a.css.map": "/static/css/main.37c2f26a.css.map",
+    "main.a4a65c22.js.map": "/static/js/main.a4a65c22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37c2f26a.css",
+    "static/js/main.a4a65c22.js"
+  ]
+}
